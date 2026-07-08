@@ -31,3 +31,19 @@
     background-color: #E0F0F2;
 }
 
+.fw-black {
+    font-weight: 1000 !important;
+}
+
+.text-orange{
+    
+    color: #fd7c61 !important;
+}
+
+.btn-coral{
+    background-color: #FFEDD5 !important;
+
+}
+.btn-premium{
+    background-color: #fd7c61 !important;
+}
