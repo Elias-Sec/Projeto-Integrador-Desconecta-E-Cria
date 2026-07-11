@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Brincadeiras</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+   <div class="container-fluid">
+            <header class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+                                <img src="img/logo-1.png" alt="Logo" class="logo" style="height: 60px;"> Off-Box
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav ms-auto">
+                                    <a class="nav-link active fw-bold px-2" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link fw-bold px-2" href="#">Brincadeiras</a>
+                                    <a class="nav-link fw-bold px-2" href="planos.html">Planos</a>
+                                    <a class="nav-link fw-bold px-2" href="#">Entrar</a>
+                                    <a class="btn botaonav fw-bold px-3" href="planos.html" role="button">Assine Agora</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+  <div class="container-fluid py-4">
+    <div class="row">
+      
+      <!-- Filtros -->
+      <aside class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-primary text-white">
+            Filtros
+          </div>
+          <div class="card-body">
+            
+            <h6 class="fw-bold">Tempo Duração</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="duracao1">
+              <label class="form-check-label" for="duracao1">15–30 min</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="duracao2">
+              <label class="form-check-label" for="duracao2">30–60 min</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="duracao3">
+              <label class="form-check-label" for="duracao3">1–2 horas</label>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="duracao4">
+              <label class="form-check-label" for="duracao4">Meio-dia</label>
+            </div>
+
+            <h6 class="fw-bold">Tipo</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="tipo1">
+              <label class="form-check-label" for="tipo1">Sensorial</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="tipo2">
+              <label class="form-check-label" for="tipo2">Artesanato</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="tipo3">
+              <label class="form-check-label" for="tipo3">Lógica</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="tipo4">
+              <label class="form-check-label" for="tipo4">Ao ar livre</label>
+            </div>
+
+            <h6 class="fw-bold">Materiais</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="materiais1">
+              <label class="form-check-label" for="materiais1">Nenhum (0 reais)</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="materiais2">
+              <label class="form-check-label" for="materiais2">Recicláveis</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="materiais3">
+              <label class="form-check-label" for="materiais3">Material básico</label>
+            </div>
+            </select>
+
+            <h6 class="fw-bold">Participantes</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="participante1">
+              <label class="form-check-label" for="participante1">Individual</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="participante2">
+              <label class="form-check-label" for="participante2">Par</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="participante3">
+              <label class="form-check-label" for="participante3">Grupo</label>
+            </div>
+            </select>
+
+          </div>
+        </div>
+      </aside>
+
+      <!-- Cards de atividades -->
+      <main class="col-md-9">
+        <div class="row g-4">
+          
+          <!-- Card 1 -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="img/caça ao tesouro.jfif" class="card-img-top" alt="Caça ao Tesouro na Natureza" w-75>
+              <div class="card-body">
+                <h5 class="card-title">Caça ao Tesouro</h5>
+                <span class="badge bg-success">Ao ar livre</span>
+                <p class="mt-2">Duração: 30–60 min | Grupo</p>
+                <span class="badge bg-info">Natureza</span>
+                <span class="badge bg-warning text-dark">Movimento</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="img/oficina de pintura.jpg" class="card-img-top" alt="Oficina de Pintura" w-75>
+              <div class="card-body">
+                <h5 class="card-title">Oficina de Pintura</h5>
+                <span class="badge bg-primary">Sensorial</span>
+                <p class="mt-2">Duração: 15–30 min | Individual/Grupo</p>
+                <span class="badge bg-info">Artesanato</span>
+                <span class="badge bg-warning text-dark">Criatividade</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="img/quebra cabeça.png" class="card-img-top" alt="Desafio de Quebra-Cabeça" w-75>
+              <div class="card-body">
+                <h5 class="card-title">Desafio de Quebra-Cabeça</h5>
+                <span class="badge bg-secondary">Lógica</span>
+                <p class="mt-2">Duração: 1–2 horas | Grupo</p>
+                <span class="badge bg-info">Foco</span>
+                <span class="badge bg-warning text-dark">Paciência</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img src="img/teatro-sombras.jpg" class="card-img-top" alt="Teatro de Sombras" w-75>
+              <div class="card-body">
+                <h5 class="card-title">Teatro de Sombras</h5>
+                <span class="badge bg-primary">Artesanato</span>
+                <p class="mt-2">Duração: 30–60 min | Individual</p>
+                <span class="badge bg-info">Imaginação</span>
+                <span class="badge bg-warning text-dark">Materiais Recicláveis</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+  </div>
+  <footer class="container-fluid py-4" style="background-color: #E0F0F2;">
+                <div class="row justify-content-between align-items-center gy-4">
+                    <div class="col-12 col-md-4">
+                        <a class="navbar-brand d-flex align-items-center fw-bold justify-content-center justify-content-md-start"
+                            href="#">
+                            <img src="img/logo-1.png" alt="Logo" class="logo me-2" style="height: 60px;"> Off-Box
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex flex-column text-dark text-center">
+                        <p class="fw-medium mb-1">Desconecte e Crie. Mais tempo de qualidade, menos tempo de tela.</p>
+                        <p class="text-secondary small mb-0">© 2026 Off-Box. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-md-end text-dark">
+                        <a href="#" class="text-dark me-3 text-decoration-none">Política de Privacidade</a>
+                        <a href="#" class="text-dark text-decoration-none">Termos de Serviço</a>
+                    </div>
+                </div>
+            </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
